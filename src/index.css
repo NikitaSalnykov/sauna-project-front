@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #F3E0DC;
   /* background-image: url('./assets/background.png'); */
   background-size: auto 100%;
   background-position: center center;
@@ -38,4 +38,40 @@ img {
 }
 button {
   cursor: pointer;
+}
+
+@media screen and (max-width: 440px) {
+  .bg-black {
+      background-position: -250px -40px;
+      background-size: 220%;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 700px) {
+    .bg-black {
+        background-position: -250px -40px;
+        background-size: 150%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 767px) {
+  .bg-black {
+      background-position: -250px -120px;
+      background-size: 150%;
+  }
+}
+
+/* Для экранов размером md и выше */
+@media screen and (min-width: 767px) and (max-width: 1240px) {
+    .bg-black {
+        background-position: -240px;
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+  .bg-black {
+      background-position: -450px;
+      background-size: 100%;
+  }
 }

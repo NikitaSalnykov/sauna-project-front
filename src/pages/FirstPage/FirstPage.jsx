@@ -1,8 +1,11 @@
+import { Gallery } from "../../components/Gallery/Gallery";
+import { Hero } from "../../components/Hero/Hero";
 
 const FirstPage = () => {
   return (
-    <div className="container bg-black">
-      <h1>First Page</h1>
+    <div>
+     <Hero/>
+     <Gallery/>
     </div>
   );
 };

@@ -6,7 +6,7 @@ module.exports = {
     screens: {
       sm: '420px',
       md: '768px',
-      lg: '1480px',
+      xl: '1480px',
       smOnly: { max: '767.98px' },
       mdOnly: { min: '768px', max: '1279.98px' },
       notXl: { max: '1279.98px' },
@@ -26,15 +26,15 @@ module.exports = {
       },
 
       colors: {
-        yellow: '#FFC107',
-        white: '#FFF',
-        background: '#FEF9F9',
-        blue: '#54ADFF',
-        black: '#111',
-        lightBlue: '#CCE4FB',
-        green: '#00C3AD',
+        white: '#ffffff',
+        background: '#F3E0DC',
+        blue: '#4285F4',
+        black: '#212121',
+        lightBrown: '#f1d8cd',
+        darkBrown: '#472f2b',
         red: '#F43F5E',
-        grey: '#888888',
+        grey: '#454545',
+        lightGrey: '#616161',
       },
       boxShadow: {
         default: '3px 8px 14px 0px rgba(136, 198, 253, 0.19)',

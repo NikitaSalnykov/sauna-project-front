@@ -29,7 +29,7 @@ export const Gallery = () => {
         </div>
 </div> */}
     </div>
-    <div class="grid gap-4 grid">
+    <div class="flex flex-col-reverse md:flex-col gap-4 ">
     <div className=' h-[510px] w-auto overflow-hidden'>
             <img class=" rounded-lg h-full w-full object-cover" src={Photo3} alt=""/>
         </div>

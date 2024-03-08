@@ -1,11 +1,11 @@
 import React from 'react';
 import Video from '../../assets/video-bg.mp4'
-import Image from '../../assets/hero.png'
+import Image from '../../assets/hero.webp'
 
 import { Link } from 'react-router-dom';
 export const Hero = () => {
   return (
-    <div class=" flex flex-col px-6 py-8 space-y-6 h-[400px] xl:h-[520px] md:py-12 md:flex-row md:items-center md:space-x-6 bg-cover bg-center bg-no-repeat bg-black justify-center relative"  
+    <div class=" flex flex-col px-6 py-8 space-y-6 h-[400px] xl:h-[520px] md:py-12 md:flex-row md:items-center md:space-x-6 bg-cover bg-center bg-no-repeat bg-black justify-start xl:justify-center relative"  
     style={{ 
         backgroundImage: `url(${Image})`, 
       }}>

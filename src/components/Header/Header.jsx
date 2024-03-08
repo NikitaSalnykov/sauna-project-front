@@ -1,14 +1,16 @@
 import React from 'react'
+import Svg from '../Svg/Svg'
+import {Logo} from '../Logo/Logo'
 
 const Header = () => {
   return (
     <header >
           <nav className="bg-light z-50 py-2 bg-black ">
-        <div className="md:flex items-center justify-between py-2 px-8 md:px-12">
+        <div className="md:flex items-center justify-between py-2 px-4 md:px-12">
             <div className="flex justify-between items-center">
-               <div className="text-2xl font-bold text-white md:text-3xl">
-                    <a href="#">Лазня на озері</a>
-               </div>
+               <div className="flex lg:flex-1 ">
+            <Logo size={42} textSize={20}/>
+          </div>
                 <div className="md:hidden">
                     <button type="button" className="block text-white hover:text-gray-700 focus:text-gray-700 focus:outline-none">
                         <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">

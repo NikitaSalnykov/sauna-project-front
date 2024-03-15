@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Review = ({review}) => {
   return (
-    <div  className='relative flex md:ml-[5%] w-full'>
-    <div className="  rounded-2xl shadow-2xl overflow-hidden h-[300px] md:h-[400px] w-[80%] md:w-[600px]  ">
+    <div  className='relative flex w-full'>
+    <div className="  rounded-2xl shadow-2xl overflow-hidden h-[300px] md:h-[400px] w-[80%] md:w-[600px] xl:w-[700px] ">
       <img alt="Card" src={review.image} className="max-w-full rounded-xl shadow-xl w-full h-full object-cover"/>
     </div>
 

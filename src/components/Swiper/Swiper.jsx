@@ -32,7 +32,7 @@ export const SwiperComponent = ({ reviews }) => {
     <>
       {reviews && (
         <Swiper
-          className="flex justify-center items-center min-h-[350px] md:min-h-[480px]"
+          className="flex justify-center items-center min-h-[350px] md:min-h-[480px] "
           modules={[Autoplay, Navigation, Scrollbar, Pagination]}
           loop={true}
           spaceBetween={40}
@@ -49,7 +49,7 @@ export const SwiperComponent = ({ reviews }) => {
               {reviews.map((el, index) => (
                  <SwiperSlide
                  key={index}
-                 className="w-full  relative"
+                 className="w-full  relative  "
                >
               <Review review={el}/>
                </SwiperSlide>

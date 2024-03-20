@@ -29,10 +29,10 @@ const reviews = [{
 
 export const Reviews = () => {
   return (
-<div className=" bg-black">
-<div className="xl:container px-4 pt-4 md:pt-12 pb-10 md:pb-16 xl:px-0">
+<div className=" bg-black mt-8 md:mt-12">
+<div className="w-full xl:container px-4 pt-4 md:pt-12 pb-10 md:pb-16 xl:px-0">
 <h2 className="text-center text-2xl uppercase font-bold text-white pb-2 md:pb-4">Наші улюблені гості</h2>     
-<p className='text-center text-md text-white pb-4 md:pb-8 w-'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nulla distinctio quo aliquid provident. Delectus officia eveniet omnis cumque facilis fugiat. Minima adipisci ullam excepturi sunt ex veniam soluta fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam, nesciunt cumque corrupti molestiae ex reprehenderit perspiciatis inventore quasi, fugit repellendus? Esse quaerat eius aliquam repudiandae, delectus aut quas reiciendis?</p>
+<p className='md:px-[10vh] text-center text-md md:text-lg text-gray-300 pb-4 md:pb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Delectus officia eveniet omnis cumque facilis fugiat. Minima adipisci ullam excepturi sunt ex veniam soluta fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam, nesciunt cumque corrupti molestiae ex reprehenderit perspiciatis inventore quasi, fugit repellendus? Esse quaerat eius aliquam repudiandae, delectus aut quas reiciendis?</p>
 <ul class="flex">
     <SwiperComponent reviews={reviews}/>
   </ul>

@@ -21,9 +21,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="flex flex-col md:flex-row hidden md:block -mx-2 ">
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Головна</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Про нас</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Контакти</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Головна</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Про нас</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Контакти</a>
             </div>
         </div>
     </nav>

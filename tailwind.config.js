@@ -35,6 +35,8 @@ module.exports = {
         red: '#F43F5E',
         grey: '#454545',
         lightGrey: '#616161',
+        lightGreen: '#9fd936',
+        secondaryText: "#4b5563",
       },
       boxShadow: {
         default: '3px 8px 14px 0px rgba(136, 198, 253, 0.19)',

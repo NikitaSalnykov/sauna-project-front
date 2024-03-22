@@ -32,19 +32,19 @@ export const SwiperComponent = ({ reviews }) => {
     <>
       {reviews && (
         <Swiper
-          className="flex justify-center items-center min-h-[350px] md:min-h-[480px] "
+          className="flex justify-center items-center min-h-[350px] md:min-h-[480px] slider-reviews"
           modules={[Autoplay, Navigation, Scrollbar, Pagination]}
-          loop={true}
+          // loop={true}
           spaceBetween={40}
           breakpoints={breakpoints}
-          autoplay={{
-            delay: 1800, // Указывает время между сменой слайдов в миллисекундах (в данном случае, 5 секунд)
-            disableOnInteraction: true, // Отключает остановку автоплея при взаимодействии с пользователем
-          }}
+          // autoplay={{
+          //   delay: 1800, // Указывает время между сменой слайдов в миллисекундах (в данном случае, 5 секунд)
+          //   disableOnInteraction: true, // Отключает остановку автоплея при взаимодействии с пользователем
+          // }}
           pagination={{
             clickable: true,
           }}
-          speed={5000}
+          // speed={5000}
         >
               {reviews.map((el, index) => (
                  <SwiperSlide

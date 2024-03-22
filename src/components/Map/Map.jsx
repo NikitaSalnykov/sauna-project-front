@@ -29,7 +29,7 @@ export const Map = () => {
           <ul className='w-full md:flex gap-2 xl:gap-2 flex md:flex-col justify-center md:items-end flex-wrap '>
             <li className='flex justify-center items-center gap-2 bg-darkBrown p-2 rounded-xl'>
               <div className="p-1"><Svg id={"icon-map"} size={22} fill={"#fffefe"} stroke={"transparent"}/></div>
-             <p className=' text-md md:text-lg  text-lightBrown text-center'><b></b>с.Миколаївка, Петропавлівський район, Дніпропетровська обл.</p>
+             <p className=' max-w-[390px] text-md md:text-lg  text-lightBrown text-center'><b></b>с.Миколаївка, Петропавлівський район, Дніпропетровська обл.</p>
             </li>
             <li className='flex justify-center md:items-center  gap-2 items-center bg-darkBrown p-2 rounded-xl'>
               <div className="p-1"><Svg id={"icon-bus"} size={22} fill={"#ffffff"} stroke={"transparent"}/></div>

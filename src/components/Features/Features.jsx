@@ -14,7 +14,7 @@ export const Features = () => {
         <div className='flex flex-row md:flex-col justify-center items-center gap-8 md:gap-1'>
 <div className="flex flex-col justify-center items-center gap-2">
 <div className='bg-darkBrown p-2 rounded-xl'>
-              <Svg id={"icon-bus"} size={32} fill={"#f1d8cd"}/>
+              <Svg id={"icon-bus"} size={32} fill={"#faf2f0"}/>
             </div>
             <p className='text-xs font-bold md:text-lg text-center'>Трансфер</p>
 </div>
@@ -25,7 +25,7 @@ export const Features = () => {
         <div className='flex flex-row md:flex-col justify-center items-center gap-8 md:gap-1'>
 <div className="flex flex-col justify-center items-center gap-2">
 <div className='bg-darkBrown p-2 rounded-xl'>
-              <Svg id={"icon-key"} size={32} fill={"#f1d8cd"}/>
+              <Svg id={"icon-key"} size={32} fill={"#faf2f0"}/>
             </div>
             <p className='text-xs font-bold md:text-lg text-center'>Готельні номери</p>
 </div>
@@ -36,7 +36,7 @@ export const Features = () => {
         <div className='flex flex-row md:flex-col justify-center items-center gap-8 md:gap-1'>
 <div className="flex flex-col justify-center items-center gap-2">
 <div className='bg-darkBrown p-2 rounded-xl'>
-              <Svg id={"icon-jacuzzi"} size={32} fill={"#f1d8cd"}/>
+              <Svg id={"icon-jacuzzi"} size={32} fill={"#faf2f0"}/>
             </div>
             <p className='text-xs font-bold md:text-lg text-center'>Горячі чани</p>
 </div>
@@ -47,7 +47,7 @@ export const Features = () => {
         <div className='flex flex-row md:flex-col justify-center items-center gap-8 md:gap-1'>
 <div className="flex flex-col justify-center items-center gap-2">
 <div className='bg-darkBrown p-2 rounded-xl'>
-              <Svg id={"icon-beach"} size={32} fill={"#f1d8cd"}/>
+              <Svg id={"icon-beach"} size={32} fill={"#faf2f0"}/>
             </div>
             <p className='text-xs font-bold md:text-lg text-center'>Озеро на території</p>
 </div>

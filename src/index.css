@@ -4,7 +4,7 @@
 @import './assets/fonts/custom-fonts.css';
 
 body {
-  background-color: #F3E0DC;
+  background-color: #f3e0dc69;
   /* background-image: url('./assets/background.png'); */
   background-size: auto 100%;
   background-position: center center;
@@ -99,6 +99,10 @@ button {
   }
 }
 
+#products > .swiper-horizontal {
+  top: 1100px;
+}
+
 @media screen and (max-width: 767px) {
   iframe {
     height: 400px;
@@ -123,4 +127,26 @@ button {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.swiper-products .swiper-pagination {
+  transform: translateY(260px);
+
+}
+
+.swiper-products  .swiper-pagination-bullet{
+  background: #471600;
+
+}
+
+
+@media screen and (min-width: 1480px) {
+  .swiper-products .swiper-pagination {
+    transform: translateY(200px);
+  }
+  
+  .swiper-products  .swiper-pagination-bullet{
+    background: #471600;
+  
+  }
 }

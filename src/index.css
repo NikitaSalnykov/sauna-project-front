@@ -142,11 +142,37 @@ button {
 
 @media screen and (min-width: 1480px) {
   .swiper-products .swiper-pagination {
-    transform: translateY(200px);
+    transform: translateY(170px);
   }
+  
   
   .swiper-products  .swiper-pagination-bullet{
     background: #471600;
   
+  }
+}
+
+  
+  
+.swiper-products  .swiper-pagination-bullet{
+  background: #471600;
+
+}
+
+@media screen and (max-width: 767px) {
+  .swiper-products .swiper-pagination {
+    transform: translateY(233px);
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+  .swiper-products .swiper-pagination {
+    transform: translateY(260px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .swiper-products .swiper-pagination {
+    transform: translateY(170px);
   }
 }

@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Svg from '../Svg/Svg'
 import {Logo} from '../Logo/Logo'
+import { MobileMenu } from '../MobileMenu/MobileMenu'
 
 const Header = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const onToglegModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <header className='fixed z-50 w-full '>
           <nav className="bg-light z-50 py-2 bg-black ">
@@ -11,7 +18,7 @@ const Header = () => {
                <div className="flex lg:flex-1 ">
             <Logo size={42} textSize={20}/>
           </div>
-                <div className="md:hidden">
+                <div className="md:hidden" onClick={onToglegModal}>
                     <button type="button" className="block text-white hover:text-gray-700 focus:text-gray-700 focus:outline-none">
                         <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
                             <path className="hidden" d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z"/>
@@ -27,6 +34,8 @@ const Header = () => {
             </div>
         </div>
     </nav>
+    <MobileMenu isOpen={isModalOpen}
+        onCloseModal={onToglegModal}/>
     </header>
   )
 }

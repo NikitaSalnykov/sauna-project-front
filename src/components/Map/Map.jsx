@@ -14,7 +14,6 @@ export const Map = () => {
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d339013.15928343195!2d35.3141648!3d48.4077705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40de8d6604352f53%3A0xdbf5ee3fb7ac54d6!2z0JzQuNC60L7Qu9Cw0ZfQstC60LAsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1Mjc0NA!5e0!3m2!1suk!2sua!4v1710339030278!5m2!1suk!2sua"
           width="100%"
           style={{ border: 0 }}
-          allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           ></iframe>

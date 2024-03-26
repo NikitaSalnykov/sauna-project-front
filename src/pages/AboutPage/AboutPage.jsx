@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const SecondPage = () => {
+const AboutPage = () => {
   return (
     <div>
       <div>
@@ -11,4 +11,4 @@ const SecondPage = () => {
   );
 };
 
-export default SecondPage;
+export default AboutPage;

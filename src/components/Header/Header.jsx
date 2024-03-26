@@ -5,7 +5,7 @@ import { MobileMenu } from '../MobileMenu/MobileMenu'
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+  
   const onToglegModal = () => {
     setIsModalOpen(!isModalOpen);
   };
@@ -27,11 +27,24 @@ const Header = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row hidden md:block -mx-2 ">
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Головна</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Про нас</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-xl">Контакти</a>
+<div className="flex md:gap-2 xl:gap-4 justify-center items-center">
+<div className=" flex-col md:flex-row hidden md:block -mx-2 ">
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Головна</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Про нас</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg">Територія</a>
+                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</a>
+
             </div>
+            <div className="hidden text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">
+            <Svg
+                    id={'icon-phone'}
+                    size={'24px'}
+                    fill={'white'}
+                  />
+              <p className='text-xl font-semibold'>+38056456466</p>
+            </div>
+</div>
+
         </div>
     </nav>
     <MobileMenu isOpen={isModalOpen}

@@ -16,7 +16,7 @@ export const Hero = () => {
                 <p class="mt-4 text-gray-300 text-md md:text-lg">У спа-готелі Баня на Озері вас чекає атмосфера справжнього відпочинку. Лазня на дровах, гарячі чани з травами, зручні готельні номери та паркувальні місця - все для вашого комфорту. А пляжна зона з чистою річкою створює неповторне враження для сімейного відпочинку або зустрічі з друзями.
 </p>
                 <div class="mt-6">
-                    <Link href="#" class="block px-3 py-2 font-semibold text-center text-darkBrown transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400 bg-lightBrown">Download from App Store</Link>
+                    <Link href="#" class="block px-3 py-2 font-semibold text-center text-darkBrown transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400 bg-lightBrown">Забронювати</Link>
                 </div>
             </div>
         </div>

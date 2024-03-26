@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import FirstPage from 'pages/FirstPage/FirstPage';
-import SecondPage from 'pages/SecondPage/SecondPage';
-import HalfPage from 'pages/HalfPage/HalfPage';
+import MainPage from 'pages/MainPage/MainPage';
 import ErrorPage from 'pages/ErrorPage/ErrorPage';
 import SharedLayout from './components/SharedLayout/SharedLayout';
+import AboutPage from './pages/AboutPage/AboutPage';
+import { TerritoryPage } from './pages/TerritoryPage/TerritoryPage';
+import { PricePage } from './pages/PricePage/PricePage';
 
 const test = import.meta.env.VITE_API_TEST;
 
@@ -13,11 +14,11 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-        <Route index element={<FirstPage />} />
-          <Route path="/first" element={<FirstPage />} />
-          <Route path="/second" element={<SecondPage />}>
-            <Route path=":half" element={<HalfPage />} />
-          </Route>
+        <Route index element={<MainPage />} />
+          <Route path="/home" element={<MainPage />} />
+          <Route path="/about" element={<AboutPage/>}/>
+          <Route path="/territory" element={<TerritoryPage/>} />
+          <Route path="/price" element={<PricePage/>} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>

@@ -7,7 +7,7 @@ import { ProductsList } from "../../components/ProductsList/ProductsList";
 import { Reviews } from "../../components/Reviews/Reviews";
 import { Video } from "../../components/Video/Video";
 
-const FirstPage = () => {
+const MainPage = () => {
   return (
     <div>
      <Hero/>
@@ -22,4 +22,4 @@ const FirstPage = () => {
   );
 };
 
-export default FirstPage;
+export default MainPage;

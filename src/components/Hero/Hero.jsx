@@ -1,5 +1,4 @@
 import React from 'react';
-import Video from '../../assets/video-bg.mp4'
 import Image from '../../assets/hero.webp'
 
 import { Link } from 'react-router-dom';

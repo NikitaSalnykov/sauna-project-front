@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Svg from '../Svg/Svg'
 import {Logo} from '../Logo/Logo'
 import { MobileMenu } from '../MobileMenu/MobileMenu'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,10 +30,10 @@ const Header = () => {
             </div>
 <div className="flex md:gap-2 xl:gap-4 justify-center items-center">
 <div className=" flex-col md:flex-row hidden md:block -mx-2 ">
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Головна</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Про нас</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg">Територія</a>
-                <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</a>
+                <Link to="/home" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Головна</Link>
+                <Link to="/about" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Про нас</Link>
+                <Link to="/territory" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg">Територія</Link>
+                <Link to="/price" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</Link>
 
             </div>
             <div className="hidden text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">

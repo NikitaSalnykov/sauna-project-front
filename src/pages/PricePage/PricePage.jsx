@@ -1,11 +1,15 @@
 import React from 'react'
-import { Features } from '../../components/Features/Features'
-import { Hero } from '../../components/Hero/Hero'
+import Image from '../../assets/hero.webp'
+import { SecondaryHero } from '../../components/SecondaryHero/SecondaryHero'
+import { ProductsList } from '../../components/ProductsList/ProductsList'
 
 export const PricePage = () => {
   return (
-    <div className=' h-[90vh]'>
-      <Hero/>
+    <div>
+      <SecondaryHero img={Image} title={"Ціни"}/>
+      <div className="mb-4">
+      <ProductsList/>
+      </div>
     </div>
   )
 }

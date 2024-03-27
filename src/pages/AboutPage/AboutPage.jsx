@@ -1,12 +1,18 @@
-import { Link } from "react-router-dom";
+import { SecondaryHero } from "../../components/SecondaryHero/SecondaryHero";
+import Image from '../../assets/hero.webp'
+import { Map } from "../../components/Map/Map";
+import { Reviews } from "../../components/Reviews/Reviews";
+import { Title } from "../../components/Title/Title";
 
 const AboutPage = () => {
   return (
     <div>
-      <div>
-        <h2>Second Page</h2>
-        <Link to="/second/5">Half</Link>
+      <SecondaryHero img={Image} title={"Про нас"}/>
+      <div className="mt-8">
+        <Title title={'Баня'} accent={'на озері'}/>
       </div>
+      <Map/>
+      <Reviews/>
     </div>
   );
 };

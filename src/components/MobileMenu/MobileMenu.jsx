@@ -54,11 +54,11 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
         createPortal(
           <div className={`transition-all duration-300 ${isOpenAnimation ? "opacity-100" : "opacity-0"} modal-overlay flex items-center justify-center fixed bg-black bg-opacity-100 top-0 left-0 w-full h-full z-50`}>
             <div
-              className="shadow-lg rounded-xl w-full h-screen"
+              className="w-full h-screen"
               ref={modalRef}
             >
-              <div className="justify-center overflow-y-auto relative">
-                <div className="flex items-center justify-between py-4 px-4 md:px-12">
+              <div className="justify-center overflow-y-auto ">
+                <div className="flex items-center justify-between py-4 px-4 md:px-12 fixed w-full">
                   <Logo size={42} textSize={20} />
                   <Svg
                     className={`transition-all duration-500 ${isOpenAnimation ? "rotate-90" : "rotate-0"}   w-8 h-8 rounded-full flex items-center justify-center bg-slate-100 hover:bg-slate-500 ml-auto mb-2 cursor-pointer`}
@@ -69,7 +69,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
                     onClick={closeMenu}
                   />
                 </div>
-                <div className="text-white flex flex-col gap-4 justify-center items-center w-full mt-[40px]">
+                <div className="text-white flex flex-col gap-4 justify-center items-center w-full mt-[15vh]">
                   <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</a>
                   <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</a>
                   <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Контакти</a>

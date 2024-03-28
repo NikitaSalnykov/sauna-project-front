@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import Svg from '../Svg/Svg';
 import { Logo } from '../Logo/Logo';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const modalRoot = document.querySelector('#menu-root');
 
@@ -54,7 +55,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
         createPortal(
           <div className={`md:hidden transition-all duration-300 ${isOpenAnimation ? "opacity-100" : "opacity-0"} modal-overlay flex items-center justify-center fixed bg-black bg-opacity-100 top-0 left-0 w-full h-full z-50`}>
             <div
-              className="w-full h-full"
+              className="w-full h-screen"
               ref={modalRef}
             >
               <div className="justify-center overflow-y-auto ">
@@ -70,12 +71,10 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
                   />
                 </div>
                 <div className="text-white flex flex-col gap-4 justify-center items-center w-full mt-[15vh]">
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</a>
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</a>
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Контакти</a>
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</a>
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</a>
-                  <a href="#" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Контакти</a>
+                  <Link to="/home" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</Link>
+                  <Link to="/about" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</Link>
+                  <Link to="/territory" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Контакти</Link>
+                  <Link to="/price" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Ціни</Link>
                 </div>
               </div>
             </div>

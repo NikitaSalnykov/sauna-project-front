@@ -3,10 +3,10 @@ import React from 'react'
 export const ProductCard = ({img, title, price, description}) => {
   return (
     <div class="relative flex w-full md:w-[370px] xl:w-[440px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md h-[540px] md:h-[700px] xl:h-[600px] ">
-  <div class="relative mx-4 mt-4 min-h-80 md:h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+  <div class="relative mx-4 mt-4 md:min-h-80 h-56 md:h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     <img
       src={img}
-      class="h-full w-full object-cover"
+      class="h-full w-full  object-cover"
     />
   </div>
   <div class="p-6 overflow-hidden">

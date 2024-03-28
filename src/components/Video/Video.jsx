@@ -19,13 +19,11 @@ export const Video = () => {
         </div>
       </div>
       <div className="block w-full rounded-xl overflow-hidden md:w-1/2">
-        <div className="object-cover ">
           {/* Video element */}
-          <video width="100%" height="100%" controls poster={posterImage}>
+          <video controls poster={posterImage} className="w-full">
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>
       </div>
     </div>
     </Container>

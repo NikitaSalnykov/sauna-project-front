@@ -8,9 +8,9 @@ export const Hero = () => {
     style={{ 
         backgroundImage: `url(${Image})`, 
       }}>
-                <div className="md:hidden w-full h-full bg-black absolute left-0 bottom-0 opacity-70 "></div>
+                <div className="xl:hidden w-full h-full bg-black absolute left-0 bottom-0 opacity-70 "></div>
         <div class="lg:container flex flex-col items-center selection:md:items-right w-full md:flex-row z-10 justify-center md:justify-end text-center md:text-end">
-            <div class="max-w-[400px] md:max-w-[450px] xl:max-w-[800px] md:p-12 xl:p-24">
+            <div class="max-w-[400px] md:max-w-[700px] xl:max-w-[800px] md:p-12 xl:p-24">
                 <h1 class="text-3xl font-semibold  tracking-wide text-white md:text-4xl text-antiquewhite">Найкращій <span className='text-lightBrown'>відпочинок у лазні</span></h1>
                 <p class="mt-4 text-gray-300 text-md md:text-lg">У спа-готелі Баня на Озері вас чекає атмосфера справжнього відпочинку. Лазня на дровах, гарячі чани з травами, зручні готельні номери та паркувальні місця - все для вашого комфорту. А пляжна зона з чистою річкою створює неповторне враження для сімейного відпочинку або зустрічі з друзями.
 </p>

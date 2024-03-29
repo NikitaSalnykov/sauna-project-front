@@ -23,7 +23,7 @@ export const Map = () => {
         </div>
         <div className='text-right flex w-full md:w-1/2 gap-6 lg:gap-6 md:flex-col md:py-4 md:px-4'>
          <h3 className="hidden md:block  text-3xl font-semibold text-gray-900 md:text-4xl">Ми на <span className='text-darkBrown'>мапі</span></h3>     
-          <p  className='hidden md:block text-md xl:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non perferendis, repudiandae et quos obcaecati labore! Quisquam explicabo officia fuga pariatur ipsa! Eligendi commodi eum quia neque, exercitationem nam ullam veritatis!</p>
+          <p  className='text-secondaryText hidden md:block text-md xl:text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non perferendis, repudiandae et quos obcaecati labore! Quisquam explicabo officia fuga pariatur ipsa! Eligendi commodi eum quia neque, exercitationem nam ullam veritatis!</p>
         <div className="w-full ">
           <ul className='w-full md:flex gap-2 xl:gap-2 flex md:flex-col justify-center md:items-end flex-wrap '>
             <li className='flex justify-center items-center gap-2 bg-darkBrown p-2 rounded-xl'>

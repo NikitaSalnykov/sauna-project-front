@@ -11,7 +11,7 @@ export const TerritoryItem = ({img, title, text, index}) => {
         <div className="md:py-4 md:px-4">
         <h3 className=' text-xl md:text-3xl font-bold mb-4 w-full'>{title}</h3>
       <div className='flex gap-4 flex-col md:flex-row'>
-                <p className='text-bold text-md md:text-xl'>{text}</p>
+                <p className='text-secondaryText text-bold text-md md:text-xl'>{text}</p>
               </div>
       </div>    
     </div>

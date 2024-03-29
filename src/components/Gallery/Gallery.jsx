@@ -17,8 +17,8 @@ export const Gallery = () => {
       <div className=" md:py-4 md:px-4">
         <h3 className='flex text-lg md:text-xl font-bold mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magni!</h3>
       <div className='flex gap-4 flex-col md:flex-row '>
-                <p className='text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore.</p>
-                <p className='text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vel adipisci veritatis nobis dignissimos quos, nostrum minus ea quisquam dolorum accusamus iste nihil et.</p>
+                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore.</p>
+                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vel adipisci veritatis nobis dignissimos quos, nostrum minus ea quisquam dolorum accusamus iste nihil et.</p>
               </div>
       </div>
         <div className='h-[200px] md:h-[400px] w-auto overflow-hidden'>

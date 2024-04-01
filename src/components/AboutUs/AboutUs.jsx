@@ -7,11 +7,11 @@ export const AboutUs = () => {
     <div class={`flex flex-col md:flex-row-reverse gap-4 md:gap-12 justify-center items-center mt-8`}>
         <div className='md:w-1/2 w-full relative mb-6 md:mb-12'>
           <div className="overflow-hidden flex md:justify-end">
-          <img class=" rounded-lg h-auto w-[90%] object-cover" src={'https://celes.club/uploads/posts/2022-01/1642008478_1-celes-club-p-banya-na-beregu-ozera-priroda-krasivo-foto-1.jpg'} alt='sauna'/>
+          <img class=" rounded-lg min-h-[200px] bg-slate-200 md:h-[300px] w-[90%] object-cover" src={'https://celes.club/uploads/posts/2022-01/1642008478_1-celes-club-p-banya-na-beregu-ozera-priroda-krasivo-foto-1.jpg'} alt='sauna'/>
 
           </div>
             <div className=" absolute bottom-[-50px] right-[-20px] md:bottom-[-100px] md:left-[-60px] xl:left-[-100px]">
-            <img class=" rounded-lg w-[150px] md:w-[200px] xl:w-[250px] object-cover" src={photo2} alt='sauna'/>
+            <img class=" rounded-lg w-[150px] md:w-[200px] xl:w-[250px]  object-cover" src={photo2} alt='sauna'/>
             </div>
         </div>
 

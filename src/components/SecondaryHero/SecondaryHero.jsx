@@ -8,7 +8,7 @@ export const SecondaryHero = ({img, title, link, linkName}) => {
       }}>
                 <div className="w-full h-full bg-black absolute left-0 bottom-0 opacity-70 "></div>
         <div class={` lg:container flex flex-col items-center selection:md:items-right w-full md:flex-row z-10 justify-center md:justify-end text-center md:text-end`}>
-            <div class="max-w-[400px] md:max-w-[450px] xl:max-w-[800px] md:p-12 xl:p-24">
+            <div class=" max-w-[400px] md:max-w-[450px] xl:max-w-[800px] md:p-12 xl:p-24">
                 <h2 class=" text-3xl font-semibold  tracking-wide text-white md:text-4xl text-antiquewhite">{title}</h2>
 {linkName &&                <div class={`${linkName && "mt-4"}`}>
                     <Link to={link || '#'} class="block px-3 py-2 font-semibold text-center text-darkBrown transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400 bg-lightBrown">{linkName}</Link>

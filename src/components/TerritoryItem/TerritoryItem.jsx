@@ -4,7 +4,7 @@ export const TerritoryItem = ({img, title, text, index}) => {
   return (
     <div class={`grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 justify-center items-center`}>
         <div className='w-auto overflow-hidden'>
-            <img class=" rounded-lg h-full w-full object-cover" src={img} alt={title}/>
+            <img class=" rounded-lg h-full min-h-[400px]  w-full object-cover" src={img} alt={title}/>
         </div>
 
     <div class={`${index % 2 === 0 ? "md:order-first md:text-end" : "order-second text-start"} flex flex-col-reverse md:flex-col-reverse gap-4 `}>

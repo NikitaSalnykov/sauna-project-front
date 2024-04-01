@@ -75,7 +75,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
                 <div className="text-white flex flex-col gap-4 justify-center items-center w-full mt-[10vh]">
                   <Link to="/home" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</Link>
                   <Link to="/about" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</Link>
-                  <Link to="/territory" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Контакти</Link>
+                  <Link to="/territory" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Територія</Link>
                   <Link to="/price" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Ціни</Link>
                 </div>
                             

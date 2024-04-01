@@ -11,7 +11,7 @@ export const Gallery = () => {
   return (
     <Section>
     <Container >
-    <Title accent={"Послуги"}/>
+    <Title title={"Відпочинок"} accent={"у лазні"}/>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
     <div class="grid gap-4">
       <div className=" md:py-4 md:px-4">

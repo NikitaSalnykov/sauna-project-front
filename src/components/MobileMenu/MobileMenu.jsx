@@ -58,7 +58,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
               className="w-full h-screen"
               ref={modalRef}
             >
-              <div className="justify-center overflow-y-auto ">
+              <div >
                 <div className="flex items-center justify-between py-4 px-4 md:px-12 w-full">
                   <Logo size={42} textSize={20} />
                   <Svg

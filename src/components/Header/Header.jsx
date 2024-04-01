@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className='fixed z-50 w-full '>
+    <div className='fixed z-50 w-full '>
           <nav className="bg-light z-50 py-2 bg-black ">
         <div className="md:flex items-center justify-between py-2 px-4 md:px-12">
             <div className="flex justify-between items-center">
@@ -50,7 +50,7 @@ const Header = () => {
     </nav>
     <MobileMenu isOpen={isModalOpen}
         onCloseModal={onToglegModal}/>
-    </header>
+    </div>
   )
 }
 

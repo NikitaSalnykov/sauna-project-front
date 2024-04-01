@@ -9,7 +9,9 @@ import Background from '../Background/Background';
 const SharedLayout = () => {
   return (
     <>
+      <header>
       <Header />
+      </header>
       <Background/>
       <Suspense fallback="....">
         <Outlet />

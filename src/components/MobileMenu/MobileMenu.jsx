@@ -55,7 +55,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
         createPortal(
           <div className={`md:hidden transition-all duration-300 ${isOpenAnimation ? "opacity-100" : "opacity-0"} modal-overlay flex items-center justify-center fixed bg-black bg-opacity-100 top-0 left-0 w-full h-full z-50`}>
             <div
-              className="w-full h-screen"
+              className="w-full h-full"
               ref={modalRef}
             >
               <div className="flex h-full flex-col justify-between">

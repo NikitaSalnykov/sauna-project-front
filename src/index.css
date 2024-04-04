@@ -176,3 +176,7 @@ button {
     transform: translateY(170px);
   }
 }
+
+.active {
+  color: #f0ff9a /* ваш цвет текста для активной ссылки */
+}

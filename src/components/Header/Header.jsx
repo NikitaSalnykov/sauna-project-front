@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Svg from '../Svg/Svg'
 import {Logo} from '../Logo/Logo'
 import { MobileMenu } from '../MobileMenu/MobileMenu'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,19 +30,19 @@ const Header = () => {
             </div>
 <div className="flex md:gap-2 xl:gap-4 justify-center items-center">
 <div className=" flex-col md:flex-row hidden md:block -mx-2 ">
-                <Link to="/home" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Головна</Link>
-                <Link to="/about" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Про нас</Link>
-                <Link to="/territory" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg">Територія</Link>
-                <Link to="/price" className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</Link>
+                <NavLink to="/home" className="text-white rounded  hover:opacity-80 py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Головна</NavLink>
+                <NavLink to="/about" className="text-white rounded  hover:opacity-80 py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Про нас</NavLink>
+                <NavLink to="/territory" className="text-white rounded  hover:opacity-80 py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg">Територія</NavLink>
+                <NavLink to="/price" className="text-white rounded  hover:opacity-80 py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</NavLink>
 
             </div>
-            <div className="hidden text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">
+            <div className="hidden text-white rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">
             <Svg
                     id={'icon-phone'}
                     size={'24px'}
                     fill={'white'}
                   />
-              <p className='text-xl font-semibold'>+38056456466</p>
+              <a href='tel:+380672037580' className='text-xl font-semibold'>+38056456466</a>
             </div>
 </div>
 

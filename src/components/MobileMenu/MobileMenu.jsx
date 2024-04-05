@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import Svg from '../Svg/Svg';
 import { Logo } from '../Logo/Logo';
 import Footer from '../Footer/Footer';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const modalRoot = document.querySelector('#menu-root');
 
@@ -73,10 +73,10 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
 
                 <div className="flex h-full flex-col justify-between">
                 <div className="text-white flex flex-col gap-4 justify-center items-center w-full mt-[10vh]">
-                  <Link to="/home" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</Link>
-                  <Link to="/about" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</Link>
-                  <Link to="/territory" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Територія</Link>
-                  <Link to="/price" onClick={() => closeMenu()} className="text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Ціни</Link>
+                  <NavLink to="/home" onClick={() => closeMenu()} className="text-white rounded hover:opacity-80 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Головна</NavLink>
+                  <NavLink to="/about" onClick={() => closeMenu()} className="text-white rounded hover:opacity-80 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Про нас</NavLink>
+                  <NavLink to="/territory" onClick={() => closeMenu()} className="text-white rounded hover:opacity-80 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Територія</NavLink>
+                  <NavLink to="/price" onClick={() => closeMenu()} className="text-white rounded hover:opacity-80 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 text-2xl md:text-3xl">Ціни</NavLink>
                 </div>
                             
                 <div className='text-white bottom-0 py-4 px-4 md:px-12 text-3xl font-semibold'>
@@ -147,7 +147,7 @@ export const MobileMenu = ({ isOpen, onCloseModal }) => {
                         </svg>
                       </span>
                     </a>
-                    <div className=" text-white rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 mx-2 text-xl flex justify-center items-center gap-1">
+                    <div className=" text-white rounded hover:text-gray-100 hover:font-medium py-2 px-2 mx-2 text-xl flex justify-center items-center gap-1">
                 <Svg
                         id={'icon-phone'}
                         size={'23'}

@@ -9,16 +9,16 @@ export const ProductCard = ({img, title, price, description}) => {
       class="h-full w-full  object-cover"
     />
   </div>
-  <div class="p-6 overflow-hidden">
+  <div class="p-6 overflow-hidden flex flex-col justify-between">
     <div class="mb-2 flex items-center justify-between">
       <p class="block font-sans text-lg font-medium text-blue-gray-900 antialiased leading-[26px]">
         {title}
       </p>
-      <p class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+      <p class="block font-sans text-xl font-medium leading-relaxed text-blue-gray-900 antialiased">
         {price}₴
       </p>
     </div>
-    <p class=" block font-sans md:text-sm font-normal leading-normal text-gray-700 antialiased opacity-75 mt-4 text-sm">
+    <p class=" block font-sans md:text-[16px] font-normal leading-normal text-gray-700 antialiased opacity-75 mt-4 text-md">
       {description}
     </p>
   </div>

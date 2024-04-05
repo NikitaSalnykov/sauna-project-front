@@ -10,6 +10,7 @@ export const Map = () => {
         <h2 className="md:hidden text-center text-3xl font-semibold text-gray-900 md:text-4xl mb-2">Ми на мапі</h2>     
       <div className='flex gap-4 md:gap-4 justify-center items-center flex-col md:flex-row'>
         <div className='w-full h-auto md:w-1/2 overflow-hidden  rounded-xl relative  shadow-md'>
+          <div className='w-[100%] h-[100%] bg-slate-200 absolute -z-20 animate-pulse'></div>
                 <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d339013.15928343195!2d35.3141648!3d48.4077705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40de8d6604352f53%3A0xdbf5ee3fb7ac54d6!2z0JzQuNC60L7Qu9Cw0ZfQstC60LAsINCU0L3RltC_0YDQvtC_0LXRgtGA0L7QstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA1Mjc0NA!5e0!3m2!1suk!2sua!4v1710339030278!5m2!1suk!2sua"
           width="100%"
@@ -23,7 +24,7 @@ export const Map = () => {
         </div>
         <div className='text-right flex w-full md:w-1/2 md:flex-col md:py-4 md:px-4'>
          <h3 className="hidden md:block  text-3xl font-semibold text-gray-900 md:text-4xl">Ми на <span className='text-darkBrown'>мапі</span></h3>     
-          <p  className='text-secondaryText hidden md:block text-md xl:text-lg mt-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non perferendis, repudiandae et quos obcaecati labore! Quisquam explicabo officia fuga pariatur ipsa! Eligendi commodi eum quia neque, exercitationem nam ullam veritatis!</p>
+          <p  className='text-secondaryText hidden md:block text-md xl:text-lg mt-2'>Знайдіть нас легко і швидко на карті. Наша лазня "Баня на озері" розташована в прекрасному місці у с.Миколаївка, Петропавлівський район, Дніпропетровська обл., де ви зможете насолоджуватися природою і атмосферою розслаблення.</p>
         <div className="w-full mt-6 ">
           <ul className='w-full md:flex gap-2 xl:gap-2 flex md:flex-col justify-center md:items-end flex-wrap '>
             <li className='flex justify-center items-center gap-2 bg-darkBrown p-2 rounded-xl'>

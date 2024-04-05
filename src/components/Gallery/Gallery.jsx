@@ -15,10 +15,10 @@ export const Gallery = () => {
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
     <div class="grid gap-4">
       <div className=" md:py-4 md:px-4">
-        <h3 className='flex text-lg md:text-xl font-bold mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magni!</h3>
+        <h3 className='flex text-lg md:text-xl font-bold mb-4'>Комфорт та затишок</h3>
       <div className='flex gap-4 flex-col md:flex-row '>
-                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore.</p>
-                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vel adipisci veritatis nobis dignissimos quos, nostrum minus ea quisquam dolorum accusamus iste nihil et.</p>
+                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>У нашій лазні "Баня на озері" вас сучасні та затишні приміщення, створені для максимального комфорту і розслаблення. Тут кожна деталь продумана з метою створити неповторний атмосферний настрій</p>
+                <p className='text-secondaryText text-bold text-md md:text-lg md:w-1/2'>На території нашої лазні розташоване чарівне озеро та природний ліс, що створюють унікальну атмосферу злагоди з природою. Тут ви зможете насолоджуватися спокоєм та свіжим повітрям.</p>
               </div>
       </div>
         <div className='h-[200px] md:h-[400px] w-auto overflow-hidden'>
@@ -31,9 +31,9 @@ export const Gallery = () => {
             <img class=" rounded-lg h-full w-auto  object-cover" src={Photo1} alt=""/>
         </div>
         <div className="md:py-4 md:px-4">
-        <h3 className='flex text-lg md:text-xl font-bold mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magni!</h3>
+        <h3 className='flex text-lg md:text-xl font-bold mb-4'>Відновлення енергії!</h3>
       <div className='flex gap-4 flex-col md:flex-row'>
-                <p className='text-bold text-md md:text-lg '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam accusamus modi libero magnam minus sequi impedit harum sint inventore.</p>
+                <p className='text-bold text-md md:text-lg '>Наша лазня пропонує різноманітні процедури та послуги, які допоможуть вам відновити енергію і зарядитися позитивним настроєм. Гарячі чани та сучасна сауна - у нас ви знайдете все необхідне для повного відновлення і зарядження життєвими силами.</p>
               </div>
       </div>    
     </div>

@@ -178,5 +178,7 @@ button {
 }
 
 .active {
-  color: #f0ff9a /* ваш цвет текста для активной ссылки */
+  font-weight: 600;
+  text-decoration: solid;
 }
+

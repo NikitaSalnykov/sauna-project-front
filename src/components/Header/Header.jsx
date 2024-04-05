@@ -36,14 +36,16 @@ const Header = () => {
                 <NavLink to="/price" className="text-white rounded  hover:opacity-80 py-2 px-1 md:mx-1 xl:mx-2 xl:px-2 md:text-lg xl:text-xl">Прайс</NavLink>
 
             </div>
-            <div className="hidden text-white rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">
+            <a href='tel:+380672037580' className="hidden text-white rounded  hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2 md:text-lg md:flex justify-center items-center gap-1">
+            <div className=" animate-pulse">
             <Svg
                     id={'icon-phone'}
                     size={'24px'}
                     fill={'white'}
                   />
-              <a href='tel:+380672037580' className='text-xl font-semibold'>+38056456466</a>
             </div>
+              <p className='text-lg font-medium'>+38056456466</p>
+            </a>
 </div>
 
         </div>
